@@ -9,16 +9,20 @@ export function Home() {
   }
 
   return (
-   <div className={container}>
-     <div>
-       <h1>Seja bem vindo, <span>treinador(a)!</span></h1>
-       <p>
-         Alguns pokemons se perderam de seus treinadores.
-         Precisamos  de sua ajuda para encontra-los.<br/>
-         <span> Aceita o desafio</span>?
-       </p>
-       <button onClick={handleNavigateToGame}>Eu aceito!</button>
-     </div>
-   </div>
-  )
+    <div className={container}>
+      <div>
+        <h1>
+          Seja bem vindo, <span>treinador(a)!</span>
+        </h1>
+        <p>
+          Existem pokemons lendários espalhados pela cidade.
+          <br />
+          Sua missão é achá-los o quanto antes para que não <br />
+          façam mais destruição!
+          <span> Aceita o desafio</span>?
+        </p>
+        <button onClick={handleNavigateToGame}>Eu aceito!</button>
+      </div>
+    </div>
+  );
 }

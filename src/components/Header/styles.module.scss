@@ -16,8 +16,8 @@
     transition: all 0.2s ease;
     &:hover {
       filter: brightness(0.8);
-      color: var(--green);
-      border-color: var(--green);
+      color: var(--red);
+      border-color: var(--red);
     }
   }
 

@@ -1,17 +1,16 @@
 .flipper {
-  /* define a velocidade da transição */ 	
-  transition: 0.4s;  	
-  transform-style: preserve-3d;    	
+  /* define a velocidade da transição */
+  transition: 0.4s;
+  transform-style: preserve-3d;
   position: relative;
   perspective: 1000;
- 
+
   &.flipped {
     transform: rotateY(180deg);
     pointer-events: none;
   }
 
   @media (max-width: 400px) {
-   
   }
 }
 
@@ -25,28 +24,27 @@
   cursor: pointer;
   border-radius: 0.625rem;
   border: 2px solid var(--black-800);
-  padding: 1.25rem;;
+  padding: 1.25rem;
   background: var(--black-800);
   color: white;
   transition: all 0.2s ease;
   transition: all 0.5s ease;
-  
+
   &.memorized {
     visibility: hidden;
     opacity: 0.2;
   }
 
   &:hover {
-    border-color: var(--green);
+    border-color: var(--red);
   }
 
   @media (max-width: 400px) {
-   
   }
 }
 
 .content {
-  border: 2px solid var(--purple);
+  border: 2px solid var(--green);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,13 +57,16 @@
   }
 }
 
-.back, .front {
-  backface-visibility: hidden;    	
-  position: absolute;  	 	
+.back,
+.front {
+  backface-visibility: hidden;
+  position: absolute;
 }
 
 .front {
   z-index: 2;
 }
 
-.back { transform: rotateY(180deg); }
+.back {
+  transform: rotateY(180deg);
+}

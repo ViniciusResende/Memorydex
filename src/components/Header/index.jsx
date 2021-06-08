@@ -9,9 +9,9 @@ export function Header() {
     history.push('/');
   }
 
-  return(
+  return (
     <header className={container}>
-      <img onClick={handleNavigateToHome} src={logo} alt="memorydex"/>
+      <img onClick={handleNavigateToHome} src={logo} alt='memorydex' />
       <button onClick={handleNavigateToHome}>Sair</button>
     </header>
   );

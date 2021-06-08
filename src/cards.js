@@ -1,60 +1,59 @@
-import pikachuImage from './assets/pikachu.png';
-import charizardImage from './assets/charizard.png';
-import pidgeotImage from './assets/pidgeot.png';
-import rattataImage from './assets/rattata.png';
-import bulbasaurImage from './assets/bulbasaur.png';
+import rayquazaImage from './assets/rayquaza.png';
+import mewtwoImage from './assets/mewtwo.png';
+import kyogreImage from './assets/kyogre.png';
+import groudonImage from './assets/groudon.png';
+import yvitalImage from './assets/yvital.png';
 import { shuffleArray } from './utils/shuffleArray';
 
 export const cards = shuffleArray([
-    {
-      id: 1,
-      value: "pikachu",
-      image: pikachuImage
-    },
-    {
-      id: 2,
-      value: "bulbasaur",
-      image: bulbasaurImage
-    },
-    {
-      id: 3,
-      value: "pikachu",
-      image: pikachuImage
-    },
-    {
-      id: 4,
-      value: "bulbasaur",
-      image: bulbasaurImage
-    },
-    {
-      id: 5,
-      value: "charizard",
-      image: charizardImage
-    },
-    {
-      id: 6,
-      value: "pidgeout",
-      image: pidgeotImage
-    },
-    {
-      id: 7,
-      value: "charizard",
-      image:charizardImage
-    },
-    {
-      id: 8,
-      value: "pidgeout",
-      image: pidgeotImage
-    }, 
-    {
-      id: 9,
-      value: "rattata",
-      image: rattataImage
-    },
-    {
-      id: 10,
-      value: "rattata",
-      image: rattataImage
-    },
+  {
+    id: 1,
+    value: 'rayquaza',
+    image: rayquazaImage,
+  },
+  {
+    id: 2,
+    value: 'yvital',
+    image: yvitalImage,
+  },
+  {
+    id: 3,
+    value: 'rayquaza',
+    image: rayquazaImage,
+  },
+  {
+    id: 4,
+    value: 'yvital',
+    image: yvitalImage,
+  },
+  {
+    id: 5,
+    value: 'mewtwo',
+    image: mewtwoImage,
+  },
+  {
+    id: 6,
+    value: 'kyogre',
+    image: kyogreImage,
+  },
+  {
+    id: 7,
+    value: 'mewtwo',
+    image: mewtwoImage,
+  },
+  {
+    id: 8,
+    value: 'kyogre',
+    image: kyogreImage,
+  },
+  {
+    id: 9,
+    value: 'groudon',
+    image: groudonImage,
+  },
+  {
+    id: 10,
+    value: 'groudon',
+    image: groudonImage,
+  },
 ]);
-
