@@ -2,40 +2,33 @@
     <img alt="Memorydex" src="https://res.cloudinary.com/dgugs5dpz/image/upload/v1622903563/logo_1_spq2v4.png" width="250px" />
 </h1>
 
-<p align="center">🚀 Um jogo da memória com pokemons.</p>
-
-<h1 align="center">
-
- ![align="center"](https://img.shields.io/github/issues/CampossCaio/Memorydex?color="FF3D00")
- ![Badge](https://img.shields.io/github/forks/CampossCaio/Memorydex?color="FF3D00")
- ![Badge](https://img.shields.io/github/stars/CampossCaio/Memorydex?color="FF3D00") 
- 
-</h1>
+<p align="center">🚀 A memory card game with legendary pokemon, are you ready for the challenge?</p>
 
 <h4 align="center"> 
-	🚧  Memorydex 🚀 Em construção  🚧
+	🚧  Memorydex 🚀 In Development  🚧
 </h4>
 
 <p align="center">
-  <a href="#-sobre-o-projeto">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-executar-o-projeto">Como executar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-autor">Autor</a> 
+  <a href="#bulb-about-the-project">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#art-layout-of-the-application">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-launching-the-project">Lauching the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#man_technologist-used-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#raising_hand_man-author">Author</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#trophy-acknowledgment">Acknowledgment</a> 
 </p>
 
-## 💻 Sobre o projeto
 
-👾   Memorydex - é uma aplicação baseada no famoso jogo da memória, onde o jogador tem como objetivo principal memorizar as cartas e ir formando pares, até que todas as cartas sejam coletadas.
+## :bulb: About the project:
 
-Projeto desenvolvido durante um workshop ministrado por mim para os alunos do curso de Ciência da Computação da universidade [Pitágoras](https://www.pitagoras.com.br).
+👾   Memorydex - Is an application based on the famous memory game, where the player has as the main goal, memorize the cars and make pairs until all cars had been collected.
 
-O intuito de seu desenvolvimento foi apresentar para os alunos, um pouco sobre a tecnologia [React.JS](https://reactnative.dev/)
-e também alguns conceitos sobre desenvolvimento web.  
+The Project was developed during a workshop ministred by [Caio Campos](https://github.com/CampossCaio) in the [Pitágoras](https://www.pitagoras.com.br) University.
+
+The main porpouse of the development was to present to the viwers, a bit about [React.JS](https://reactnative.dev/) technology and also some web development concepts.
 
 ---
 
-## 🎨 Layout
+## :art: Layout of the Application:
 
 
 <a href="">
@@ -49,62 +42,76 @@ e também alguns conceitos sobre desenvolvimento web.
 
 	
 
-## 🚀 Como executar o projeto
+## :rocket: Launching the project:
 
 
-### Pré-requisitos
+### Pre requirements
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+#### Before start, you should need have installed in your computer those following tools:
+
+<img align="center" alt="GIT" height="25" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" style="max-width:100%;"> [Git](https://git-scm.com)</img>
+</br>
+<img align="center" alt="NodeJS" height="25" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" style="max-width:100%;"> [Node.js](https://nodejs.org/en/)</img>
+
+#### It is also recommended a good code editor, for example:
+
+<img align="center" alt="VisualStudioCode" height="25" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" style="max-width:100%;"> [VSCode](https://code.visualstudio.com/)</img>
+
+</br>
 
 
-
-#### 🧭 Rodando a aplicação
+#### :computer: Starting the Frontend (Web):
 
 ```bash
 
-# Clone este repositório
-$ git clone https://github.com/CampossCaio/Memorydex
+# Clone this repository
+$ git clone https://github.com/ViniciusResende/Memorydex
 
-# Acesse a pasta do projeto no seu terminal/cmd
+# Acess the project folder
 $ cd Memorydex
 
-# Instale as dependências
+# Install all the dependencies
 $ npm install
+ or
+$ yarn 
 
-# Execute a aplicação em modo de desenvolvimento
+# Run the application
 $ npm run start
+ or
+$ yarn start
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# The application will start at port:3000 - acess http://localhost:3000
 
 ```
 
 
 ---
 
-## 🛠 Tecnologias
+## :man_technologist: Used Technologies:
 
-As seguintes ferramentas foram usadas na construção do projeto:
+Those following tools were used in the project development:
 
-#### **Website**  ([React](https://reactjs.org/))
+### **Frontend** ([ReactJs](https://reactnative.dev/) + [SASS](https://sass-lang.com/))
 
 -   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
 -   **[React Modal](https://www.npmjs.com/package/react-modal)**
 
 
-## 🦸 Autor
+## :raising_hand_man: Author
 
-<a href="https://github.com/CampossCaio">
- <img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/52550525?s=400&u=c8dfc4e1c8ef1bf3ed5890ecc40ee98f086ca72b&v=4" width="100px;" alt=""/>
+<a href="https://github.com/ViniciusResende">
+ 	<img src="https://res.cloudinary.com/viniciusalvesdefaria/image/upload/v1613257612/foto_perfil_rounded_mv1cpi.png" width="100px;" alt=""/>
  <br />
- <sub><b>Caio Campos</b></sub></a> <a href="https://github.com/CampossCaio" title="Caio Campos">🚀</a>
+ 	<b>Vinícius Alves</b></a> <a href="https://github.com/ViniciusResende" title="Vinícius Alves"></a>
  <br />
 
 ---
 
-## 📝 Licença
+## :trophy: Acknowledgment
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
-
-Feito com ❤️ por **Caio Campos** 👋🏻 [Get in touch!](https://github.com/CampossCaio)
+<a href="https://www.linkedin.com/in/caio-campos-905955175/">
+ 	<img src="https://avatars.githubusercontent.com/u/52550525?v=4" width="100px;" alt="caioCampos-pic"/>
+ </a> 
+ <br />
+ 	<p>Course ministered by: <a href="https://github.com/CampossCaio"><b>Caio Campos</b></a></p>
+ <br />
